@@ -18,7 +18,6 @@ $WMIEventFilter = Set-WmiInstance -Class __EventFilter `
 $WMIEventConsumer = Set-WmiInstance -Class CommandLineEventConsumer `
                                     -Namespace "root\subscription" `
                                     -Arguments @{Name=$consumerName
-                                                 ExecutablePath=$exePath
                                                  CommandLineTemplate =$exePath
                                                  } 
 
