@@ -1,0 +1,1052 @@
+Provider: ProviderSubSystem
+ Registration: __EventProviderRegistration
+  queries these classes:
+    Msft_WmiProvider_OperationEvent
+Provider: SppProvider
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    SoftwareLicensingProduct
+    SoftwareLicensingService
+    SoftwareLicensingTokenActivationLicense
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    SoftwareLicensingProduct
+    SoftwareLicensingService
+    SoftwareLicensingTokenActivationLicense
+Provider: Msft_ProviderSubSystem
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Msft_Providers
+    Msft_WmiProvider_Counters
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Msft_Providers
+    Msft_WmiProvider_Counters
+Provider: MS_NT_EVENTLOG_EVENT_PROVIDER
+ Registration: __EventProviderRegistration
+  queries these classes:
+    "Win32_NTLogEvent"
+Provider: MS_Power_Management_Event_Provider
+ Registration: __EventProviderRegistration
+  queries these classes:
+    Win32_PowerManagementEvent
+Provider: RegPropProv
+ Registration: __PropertyProviderRegistration
+  does not have classes
+Provider: Win32_WinSAT
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_WinSAT
+Provider: ReliabilityMetricsProvider
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_ReliabilityStabilityMetrics
+    Win32_ReliabilityRecords
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_ReliabilityStabilityMetrics
+    Win32_ReliabilityRecords
+Provider: WmiPerfInst
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_PerfFormattedData_ASPNET4030319_ASPNETAppsv4030319
+    Win32_PerfRawData_ASPNET4030319_ASPNETAppsv4030319
+    Win32_PerfFormattedData_ASPNET4030319_ASPNETv4030319
+    Win32_PerfRawData_ASPNET4030319_ASPNETv4030319
+    Win32_PerfFormattedData_ASPNET_ASPNET
+    Win32_PerfRawData_ASPNET_ASPNET
+    Win32_PerfFormattedData_ASPNET_ASPNETApplications
+    Win32_PerfRawData_ASPNET_ASPNETApplications
+    Win32_PerfFormattedData_aspnetstate_ASPNETStateService
+    Win32_PerfRawData_aspnetstate_ASPNETStateService
+    Win32_PerfFormattedData_AuthorizationManager_AuthorizationManagerApplications
+    Win32_PerfRawData_AuthorizationManager_AuthorizationManagerApplications
+    Win32_PerfFormattedData_BITS_BITSNetUtilization
+    Win32_PerfRawData_BITS_BITSNetUtilization
+    Win32_PerfFormattedData_Counters_EventTracingforWindows
+    Win32_PerfRawData_Counters_EventTracingforWindows
+    Win32_PerfFormattedData_Counters_EventTracingforWindowsSession
+    Win32_PerfRawData_Counters_EventTracingforWindowsSession
+    Win32_PerfFormattedData_Counters_GenericIKEv1AuthIPandIKEv2
+    Win32_PerfRawData_Counters_GenericIKEv1AuthIPandIKEv2
+    Win32_PerfFormattedData_Counters_HTTPService
+    Win32_PerfRawData_Counters_HTTPService
+    Win32_PerfFormattedData_Counters_HTTPServiceRequestQueues
+    Win32_PerfRawData_Counters_HTTPServiceRequestQueues
+    Win32_PerfFormattedData_Counters_HTTPServiceUrlGroups
+    Win32_PerfRawData_Counters_HTTPServiceUrlGroups
+    Win32_PerfFormattedData_Counters_IPHTTPSGlobal
+    Win32_PerfRawData_Counters_IPHTTPSGlobal
+    Win32_PerfFormattedData_Counters_IPHTTPSSession
+    Win32_PerfRawData_Counters_IPHTTPSSession
+    Win32_PerfFormattedData_Counters_IPsecAuthIPIPv4
+    Win32_PerfRawData_Counters_IPsecAuthIPIPv4
+    Win32_PerfFormattedData_Counters_IPsecAuthIPIPv6
+    Win32_PerfRawData_Counters_IPsecAuthIPIPv6
+    Win32_PerfFormattedData_Counters_IPsecDriver
+    Win32_PerfRawData_Counters_IPsecDriver
+    Win32_PerfFormattedData_Counters_IPsecIKEv1IPv4
+    Win32_PerfRawData_Counters_IPsecIKEv1IPv4
+    Win32_PerfFormattedData_Counters_IPsecIKEv1IPv6
+    Win32_PerfRawData_Counters_IPsecIKEv1IPv6
+    Win32_PerfFormattedData_Counters_IPsecIKEv2IPv4
+    Win32_PerfRawData_Counters_IPsecIKEv2IPv4
+    Win32_PerfFormattedData_Counters_IPsecIKEv2IPv6
+    Win32_PerfRawData_Counters_IPsecIKEv2IPv6
+    Win32_PerfFormattedData_Counters_Netlogon
+    Win32_PerfRawData_Counters_Netlogon
+    Win32_PerfFormattedData_Counters_PacerFlow
+    Win32_PerfRawData_Counters_PacerFlow
+    Win32_PerfFormattedData_Counters_PacerPipe
+    Win32_PerfRawData_Counters_PacerPipe
+    Win32_PerfFormattedData_Counters_PerProcessorNetworkActivityCycles
+    Win32_PerfRawData_Counters_PerProcessorNetworkActivityCycles
+    Win32_PerfFormattedData_Counters_PerProcessorNetworkInterfaceCardActivity
+    Win32_PerfRawData_Counters_PerProcessorNetworkInterfaceCardActivity
+    Win32_PerfFormattedData_Counters_ProcessorInformation
+    Win32_PerfRawData_Counters_ProcessorInformation
+    Win32_PerfFormattedData_Counters_Synchronization
+    Win32_PerfRawData_Counters_Synchronization
+    Win32_PerfFormattedData_Counters_TeredoClient
+    Win32_PerfRawData_Counters_TeredoClient
+    Win32_PerfFormattedData_Counters_TeredoRelay
+    Win32_PerfRawData_Counters_TeredoRelay
+    Win32_PerfFormattedData_Counters_TeredoServer
+    Win32_PerfRawData_Counters_TeredoServer
+    Win32_PerfFormattedData_Counters_WFP
+    Win32_PerfRawData_Counters_WFP
+    Win32_PerfFormattedData_Counters_WFPv4
+    Win32_PerfRawData_Counters_WFPv4
+    Win32_PerfFormattedData_Counters_WFPv6
+    Win32_PerfRawData_Counters_WFPv6
+    Win32_PerfFormattedData_Counters_WSManQuotaStatistics
+    Win32_PerfRawData_Counters_WSManQuotaStatistics
+    Win32_PerfFormattedData_DistributedRoutingTable_DistributedRoutingTable
+    Win32_PerfRawData_DistributedRoutingTable_DistributedRoutingTable
+    Win32_PerfFormattedData_ESENT_Database
+    Win32_PerfRawData_ESENT_Database
+    Win32_PerfFormattedData_ESENT_DatabaseInstances
+    Win32_PerfRawData_ESENT_DatabaseInstances
+    Win32_PerfFormattedData_ESENT_DatabaseTableClasses
+    Win32_PerfRawData_ESENT_DatabaseTableClasses
+    Win32_PerfFormattedData_FaxService_FaxService
+    Win32_PerfRawData_FaxService_FaxService
+    Win32_PerfFormattedData_LocalSessionManager_TerminalServices
+    Win32_PerfRawData_LocalSessionManager_TerminalServices
+    Win32_PerfFormattedData_Lsa_SecurityPerProcessStatistics
+    Win32_PerfRawData_Lsa_SecurityPerProcessStatistics
+    Win32_PerfFormattedData_Lsa_SecuritySystemWideStatistics
+    Win32_PerfRawData_Lsa_SecuritySystemWideStatistics
+    Win32_PerfFormattedData_MSDTC_DistributedTransactionCoordinator
+    Win32_PerfRawData_MSDTC_DistributedTransactionCoordinator
+    Win32_PerfFormattedData_MSDTCBridge3000_MSDTCBridge3000
+    Win32_PerfRawData_MSDTCBridge3000_MSDTCBridge3000
+    Win32_PerfFormattedData_MSDTCBridge4000_MSDTCBridge4000
+    Win32_PerfRawData_MSDTCBridge4000_MSDTCBridge4000
+    Win32_PerfFormattedData_NETCLRData_NETCLRData
+    Win32_PerfRawData_NETCLRData_NETCLRData
+    Win32_PerfFormattedData_NETCLRNetworking_NETCLRNetworking
+    Win32_PerfRawData_NETCLRNetworking_NETCLRNetworking
+    Win32_PerfFormattedData_NETDataProviderforOracle_NETDataProviderforOracle
+    Win32_PerfRawData_NETDataProviderforOracle_NETDataProviderforOracle
+    Win32_PerfFormattedData_NETDataProviderforSqlServer_NETDataProviderforSqlServer
+    Win32_PerfRawData_NETDataProviderforSqlServer_NETDataProviderforSqlServer
+    Win32_PerfFormattedData_NETFramework_NETCLRExceptions
+    Win32_PerfRawData_NETFramework_NETCLRExceptions
+    Win32_PerfFormattedData_NETFramework_NETCLRInterop
+    Win32_PerfRawData_NETFramework_NETCLRInterop
+    Win32_PerfFormattedData_NETFramework_NETCLRJit
+    Win32_PerfRawData_NETFramework_NETCLRJit
+    Win32_PerfFormattedData_NETFramework_NETCLRLoading
+    Win32_PerfRawData_NETFramework_NETCLRLoading
+    Win32_PerfFormattedData_NETFramework_NETCLRLocksAndThreads
+    Win32_PerfRawData_NETFramework_NETCLRLocksAndThreads
+    Win32_PerfFormattedData_NETFramework_NETCLRMemory
+    Win32_PerfRawData_NETFramework_NETCLRMemory
+    Win32_PerfFormattedData_NETFramework_NETCLRRemoting
+    Win32_PerfRawData_NETFramework_NETCLRRemoting
+    Win32_PerfFormattedData_NETFramework_NETCLRSecurity
+    Win32_PerfRawData_NETFramework_NETCLRSecurity
+    Win32_PerfFormattedData_NETMemoryCache40_NETMemoryCache40
+    Win32_PerfRawData_NETMemoryCache40_NETMemoryCache40
+    Win32_PerfFormattedData_OfflineFiles_ClientSideCaching
+    Win32_PerfRawData_OfflineFiles_ClientSideCaching
+    Win32_PerfFormattedData_OfflineFiles_OfflineFiles
+    Win32_PerfRawData_OfflineFiles_OfflineFiles
+    Win32_PerfFormattedData_PeerDistSvc_BranchCache
+    Win32_PerfRawData_PeerDistSvc_BranchCache
+    Win32_PerfFormattedData_PeerNameResolutionProtocol_PeerNameResolutionProtocol
+    Win32_PerfRawData_PeerNameResolutionProtocol_PeerNameResolutionProtocol
+    Win32_PerfFormattedData_PerfDisk_LogicalDisk
+    Win32_PerfRawData_PerfDisk_LogicalDisk
+    Win32_PerfFormattedData_PerfDisk_PhysicalDisk
+    Win32_PerfRawData_PerfDisk_PhysicalDisk
+    Win32_PerfFormattedData_PerfNet_Browser
+    Win32_PerfRawData_PerfNet_Browser
+    Win32_PerfFormattedData_PerfNet_Redirector
+    Win32_PerfRawData_PerfNet_Redirector
+    Win32_PerfFormattedData_PerfNet_Server
+    Win32_PerfRawData_PerfNet_Server
+    Win32_PerfFormattedData_PerfNet_ServerWorkQueues
+    Win32_PerfRawData_PerfNet_ServerWorkQueues
+    Win32_PerfFormattedData_PerfOS_Cache
+    Win32_PerfRawData_PerfOS_Cache
+    Win32_PerfFormattedData_PerfOS_Memory
+    Win32_PerfRawData_PerfOS_Memory
+    Win32_PerfFormattedData_PerfOS_Objects
+    Win32_PerfRawData_PerfOS_Objects
+    Win32_PerfFormattedData_PerfOS_PagingFile
+    Win32_PerfRawData_PerfOS_PagingFile
+    Win32_PerfFormattedData_PerfOS_Processor
+    Win32_PerfRawData_PerfOS_Processor
+    Win32_PerfFormattedData_PerfOS_System
+    Win32_PerfRawData_PerfOS_System
+    Win32_PerfFormattedData_PerfProc_FullImage_Costly
+    Win32_PerfRawData_PerfProc_FullImage_Costly
+    Win32_PerfFormattedData_PerfProc_Heap_Costly
+    Win32_PerfRawData_PerfProc_Heap_Costly
+    Win32_PerfFormattedData_PerfProc_Image_Costly
+    Win32_PerfRawData_PerfProc_Image_Costly
+    Win32_PerfFormattedData_PerfProc_JobObject
+    Win32_PerfRawData_PerfProc_JobObject
+    Win32_PerfFormattedData_PerfProc_JobObjectDetails
+    Win32_PerfRawData_PerfProc_JobObjectDetails
+    Win32_PerfFormattedData_PerfProc_Process
+    Win32_PerfRawData_PerfProc_Process
+    Win32_PerfFormattedData_PerfProc_ProcessAddressSpace_Costly
+    Win32_PerfRawData_PerfProc_ProcessAddressSpace_Costly
+    Win32_PerfFormattedData_PerfProc_Thread
+    Win32_PerfRawData_PerfProc_Thread
+    Win32_PerfFormattedData_PerfProc_ThreadDetails_Costly
+    Win32_PerfRawData_PerfProc_ThreadDetails_Costly
+    Win32_PerfFormattedData_PowerMeterCounter_PowerMeter
+    Win32_PerfRawData_PowerMeterCounter_PowerMeter
+    Win32_PerfFormattedData_rdyboost_ReadyBoostCache
+    Win32_PerfRawData_rdyboost_ReadyBoostCache
+    Win32_PerfFormattedData_RemoteAccess_RASPort
+    Win32_PerfRawData_RemoteAccess_RASPort
+    Win32_PerfFormattedData_RemoteAccess_RASTotal
+    Win32_PerfRawData_RemoteAccess_RASTotal
+    Win32_PerfFormattedData_ServiceModel4000_ServiceModelEndpoint4000
+    Win32_PerfRawData_ServiceModel4000_ServiceModelEndpoint4000
+    Win32_PerfFormattedData_ServiceModel4000_ServiceModelOperation4000
+    Win32_PerfRawData_ServiceModel4000_ServiceModelOperation4000
+    Win32_PerfFormattedData_ServiceModel4000_ServiceModelService4000
+    Win32_PerfRawData_ServiceModel4000_ServiceModelService4000
+    Win32_PerfFormattedData_ServiceModelEndpoint3000_ServiceModelEndpoint3000
+    Win32_PerfRawData_ServiceModelEndpoint3000_ServiceModelEndpoint3000
+    Win32_PerfFormattedData_ServiceModelOperation3000_ServiceModelOperation3000
+    Win32_PerfRawData_ServiceModelOperation3000_ServiceModelOperation3000
+    Win32_PerfFormattedData_ServiceModelService3000_ServiceModelService3000
+    Win32_PerfRawData_ServiceModelService3000_ServiceModelService3000
+    Win32_PerfFormattedData_SMSvcHost3000_SMSvcHost3000
+    Win32_PerfRawData_SMSvcHost3000_SMSvcHost3000
+    Win32_PerfFormattedData_SMSvcHost4000_SMSvcHost4000
+    Win32_PerfRawData_SMSvcHost4000_SMSvcHost4000
+    Win32_PerfFormattedData_Spooler_PrintQueue
+    Win32_PerfRawData_Spooler_PrintQueue
+    Win32_PerfFormattedData_TapiSrv_Telephony
+    Win32_PerfRawData_TapiSrv_Telephony
+    Win32_PerfFormattedData_TBS_TBScounters
+    Win32_PerfRawData_TBS_TBScounters
+    Win32_PerfFormattedData_Tcpip_ICMP
+    Win32_PerfRawData_Tcpip_ICMP
+    Win32_PerfFormattedData_Tcpip_ICMPv6
+    Win32_PerfRawData_Tcpip_ICMPv6
+    Win32_PerfFormattedData_Tcpip_IPv4
+    Win32_PerfRawData_Tcpip_IPv4
+    Win32_PerfFormattedData_Tcpip_IPv6
+    Win32_PerfRawData_Tcpip_IPv6
+    Win32_PerfFormattedData_Tcpip_NBTConnection
+    Win32_PerfRawData_Tcpip_NBTConnection
+    Win32_PerfFormattedData_Tcpip_NetworkInterface
+    Win32_PerfRawData_Tcpip_NetworkInterface
+    Win32_PerfFormattedData_Tcpip_TCPv4
+    Win32_PerfRawData_Tcpip_TCPv4
+    Win32_PerfFormattedData_Tcpip_TCPv6
+    Win32_PerfRawData_Tcpip_TCPv6
+    Win32_PerfFormattedData_Tcpip_UDPv4
+    Win32_PerfRawData_Tcpip_UDPv4
+    Win32_PerfFormattedData_Tcpip_UDPv6
+    Win32_PerfRawData_Tcpip_UDPv6
+    Win32_PerfFormattedData_TermService_TerminalServicesSession
+    Win32_PerfRawData_TermService_TerminalServicesSession
+    Win32_PerfFormattedData_UGatherer_SearchGathererProjects
+    Win32_PerfRawData_UGatherer_SearchGathererProjects
+    Win32_PerfFormattedData_UGTHRSVC_SearchGatherer
+    Win32_PerfRawData_UGTHRSVC_SearchGatherer
+    Win32_PerfFormattedData_usbhub_USB
+    Win32_PerfRawData_usbhub_USB
+    Win32_PerfFormattedData_WindowsMediaPlayer_WindowsMediaPlayerMetadata
+    Win32_PerfRawData_WindowsMediaPlayer_WindowsMediaPlayerMetadata
+    Win32_PerfFormattedData_WindowsWorkflowFoundation3000_WindowsWorkflowFoundation
+    Win32_PerfRawData_WindowsWorkflowFoundation3000_WindowsWorkflowFoundation
+    Win32_PerfFormattedData_WindowsWorkflowFoundation4000_WFSystemWorkflow4000
+    Win32_PerfRawData_WindowsWorkflowFoundation4000_WFSystemWorkflow4000
+    Win32_PerfFormattedData_WSearchIdxPi_SearchIndexer
+    Win32_PerfRawData_WSearchIdxPi_SearchIndexer
+Provider: RegProv
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    StdRegProv
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    StdRegProv
+Provider: MS_NT_EVENTLOG_PROVIDER
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_NTLogEvent
+    Win32_NTEventlogFile
+    Win32_NTLogEventLog
+    Win32_NTLogEventUser
+    Win32_NTLogEventComputer
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_NTLogEvent
+    Win32_NTEventlogFile
+    Win32_NTLogEventLog
+    Win32_NTLogEventUser
+    Win32_NTLogEventComputer
+Provider: WmiPerfClass
+ Registration: __ClassProviderRegistration
+  only provides class definitions
+Provider: VolumeChangeEvents
+ Registration: __EventProviderRegistration
+  queries these classes:
+    Win32_VolumeChangeEvent
+Provider: Standard Non-COM Event Provider
+ Registration: __EventProviderRegistration
+  queries these classes:
+    MSFT_WMI_GenericNonCOMEvent
+    MSFT_NcProvEvent
+Provider: MSVSS__PROVIDER
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_ShadowProvider
+    Win32_ShadowCopy
+    Win32_ShadowStorage
+    Win32_ShadowVolumeSupport
+    Win32_ShadowFor
+    Win32_ShadowOn
+    Win32_ShadowBy
+    Win32_ShadowDiffVolumeSupport
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_ShadowProvider
+    Win32_ShadowCopy
+    Win32_ShadowStorage
+    Win32_ShadowVolumeSupport
+    Win32_ShadowFor
+    Win32_ShadowOn
+    Win32_ShadowBy
+    Win32_ShadowDiffVolumeSupport
+Provider: Win32_OfflineFilesProvider
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_OfflineFilesChangeInfo
+    Win32_OfflineFilesItem
+    Win32_OfflineFilesPinInfo
+    Win32_OfflineFilesFileSysInfo
+    Win32_OfflineFilesSuspendInfo
+    Win32_OfflineFilesCache
+    Win32_OfflineFilesConnectionInfo
+    Win32_OfflineFilesDirtyInfo
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_OfflineFilesChangeInfo
+    Win32_OfflineFilesItem
+    Win32_OfflineFilesPinInfo
+    Win32_OfflineFilesFileSysInfo
+    Win32_OfflineFilesSuspendInfo
+    Win32_OfflineFilesCache
+    Win32_OfflineFilesConnectionInfo
+    Win32_OfflineFilesDirtyInfo
+Provider: WMIPingProvider
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_PingStatus
+Provider: WMI Self-Instrumentation Event Provider
+ Registration: __EventProviderRegistration
+  queries these classes:
+    MSFT_WmiEssEvent
+Provider: RegistryEventProvider
+ Registration: __EventProviderRegistration
+  queries these classes:
+    RegistryEvent
+Provider: Cimwin32A
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_NTDomain
+    Win32_USBHub
+    Win32_PhysicalMedia
+    Win32_NamedJobObjectStatistics
+    Win32_OperatingSystemAutochkSetting
+    Win32_NamedJobObjectProcess
+    Win32_UserInDomain
+    Win32_GroupInDomain
+    Win32_LogonSessionMappedDisk
+    Win32_ControllerHasHub
+    Win32_DiskDrivePhysicalMedia
+    Win32_NamedJobObjectLimit
+    Win32_NamedJobObjectSecLimit
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_NTDomain
+    Win32_USBHub
+    Win32_PhysicalMedia
+    Win32_NamedJobObjectStatistics
+    Win32_OperatingSystemAutochkSetting
+    Win32_NamedJobObjectProcess
+    Win32_UserInDomain
+    Win32_GroupInDomain
+    Win32_LogonSessionMappedDisk
+    Win32_ControllerHasHub
+    Win32_DiskDrivePhysicalMedia
+    Win32_NamedJobObjectLimit
+    Win32_NamedJobObjectSecLimit
+Provider: NamedJobObjectLimitSettingProv
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_NamedJobObjectLimitSetting
+Provider: RouteProvider
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_IP4RouteTable
+    Win32_IP4PersistedRouteTable
+    Win32_ActiveRoute
+Provider: SCM Event Provider
+ Registration: __EventProviderRegistration
+  queries these classes:
+    MSFT_SCMEvent
+Provider: WhqlProvider
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_PnPSignedDriver
+    Win32_PnPSignedDriverCIMDataFile
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_PnPSignedDriver
+    Win32_PnPSignedDriverCIMDataFile
+Provider: DFSProvider
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_DfsNode
+    Win32_DfsTarget
+    Win32_DfsNodeTarget
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_DfsNode
+    Win32_DfsTarget
+    Win32_DfsNodeTarget
+Provider: MS_Shutdown_Event_Provider
+ Registration: __EventProviderRegistration
+  queries these classes:
+    Win32_ComputerShutdownEvent
+Provider: CIMWin32
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_OperatingSystem
+    Win32_Process
+    Win32_ComputerSystem
+    Win32_BIOS
+    Win32_Battery
+    Win32_PortableBattery
+    Win32_PnPEntity
+    Win32_TemperatureProbe
+    Win32_VoltageProbe
+    Win32_CurrentProbe
+    Win32_Bus
+    Win32_Keyboard
+    Win32_DesktopMonitor
+    Win32_PointingDevice
+    Win32_NetworkAdapter
+    Win32_SoundDevice
+    Win32_MotherboardDevice
+    Win32_DiskDrive
+    Win32_FloppyDrive
+    Win32_TapeDrive
+    Win32_CDROMDrive
+    Win32_POTSModem
+    Win32_HeatPipe
+    Win32_Refrigeration
+    Win32_Fan
+    Win32_Printer
+    Win32_SCSIController
+    Win32_InfraredDevice
+    Win32_PCMCIAController
+    Win32_FloppyController
+    Win32_VideoController
+    Win32_USBController
+    Win32_SerialPort
+    Win32_ParallelPort
+    Win32_IDEController
+    Win32_1394Controller
+    Win32_CacheMemory
+    Win32_MemoryArray
+    Win32_MemoryDevice
+    Win32_LogicalDisk
+    Win32_MappedLogicalDisk
+    Win32_DiskPartition
+    Win32_Processor
+    Win32_Thread
+    Win32_DCOMApplication
+    Win32_ScheduledJob
+    Win32_PrintJob
+    Win32_OptionalFeature
+    Win32_ComponentCategory
+    Win32_LogicalProgramGroupItem
+    Win32_LogicalProgramGroup
+    Win32_NetworkConnection
+    Win32_ClassicCOMClass
+    Win32_UserAccount
+    Win32_Group
+    Win32_SystemAccount
+    Win32_BaseService
+    Win32_SystemDriver
+    Win32_Service
+    Win32_PrinterDriver
+    Win32_TCPIPPrinterPort
+    Win32_PortResource
+    Win32_DeviceMemoryAddress
+    Win32_IRQResource
+    Win32_Environment
+    Win32_DMAChannel
+    Win32_Share
+    Win32_ClusterShare
+    Win32_NetworkProtocol
+    Win32_QuickFixEngineering
+    Win32_LoadOrderGroup
+    Win32_LogonSession
+    Win32_NetworkClient
+    Win32_PageFileUsage
+    CIM_LogicalFile
+    Win32_Directory
+    CIM_DataFile
+    Win32_ShortcutFile
+    Win32_CodecFile
+    Win32_PageFile
+    Win32_Registry
+    Win32_PhysicalMemory
+    Win32_OnBoardDevice
+    Win32_SystemEnclosure
+    Win32_BaseBoard
+    Win32_PhysicalMemoryArray
+    Win32_SystemSlot
+    Win32_PortConnector
+    Win32_TimeZone
+    Win32_PageFileSetting
+    Win32_Desktop
+    Win32_AutochkSetting
+    Win32_SerialPortConfiguration
+    Win32_StartupCommand
+    Win32_BootConfiguration
+    Win32_NetworkLoginProfile
+    CIM_VideoControllerResolution
+    Win32_DisplayConfiguration
+    Win32_NetworkAdapterConfiguration
+    Win32_DisplayControllerConfiguration
+    Win32_OSRecoveryConfiguration
+    Win32_ClassicCOMClassSetting
+    Win32_DCOMApplicationSetting
+    Win32_PrinterConfiguration
+    Win32_UserDesktop
+    Win32_PrinterSetting
+    Win32_NetworkAdapterSetting
+    Win32_SerialPortSetting
+    Win32_SystemProgramGroups
+    Win32_SystemBootConfiguration
+    Win32_SystemTimeZone
+    Win32_SystemDesktop
+    Win32_ClassicCOMClassSettings
+    Win32_COMApplicationSettings
+    Win32_VideoSettings
+    Win32_PageFileElementSetting
+    Win32_ImplementedCategory
+    Win32_DCOMApplicationAccessAllowedSetting
+    Win32_PnPDevice
+    Win32_ShareToDirectory
+    Win32_ClientApplicationSetting
+    Win32_SystemServices
+    Win32_SystemNetworkConnections
+    Win32_SystemResources
+    Win32_SystemBIOS
+    Win32_SystemLoadOrderGroups
+    Win32_SystemUsers
+    Win32_SystemOperatingSystem
+    Win32_SystemDevices
+    Win32_ComputerSystemProcessor
+    Win32_SystemPartitions
+    Win32_SystemSystemDriver
+    Win32_SystemProcesses
+    Win32_ClassicCOMApplicationClasses
+    CIM_DirectoryContainsFile
+    Win32_LoadOrderGroupServiceMembers
+    Win32_LogicalDiskRootDirectory
+    Win32_MemoryDeviceArray
+    Win32_GroupUser
+    Win32_ProgramGroupContents
+    Win32_SubDirectory
+    Win32_PhysicalMemoryLocation
+    Win32_ComClassAutoEmulator
+    Win32_ComClassEmulator
+    Win32_DCOMApplicationLaunchAllowedSetting
+    Win32_DeviceBus
+    Win32_PrinterShare
+    Win32_LoadOrderGroupServiceDependencies
+    CIM_ProcessExecutable
+    Win32_SessionProcess
+    Win32_AssociatedProcessorMemory
+    Win32_PrinterDriverDll
+    Win32_DependentService
+    Win32_LogicalDiskToPartition
+    Win32_OperatingSystemQFE
+    Win32_LoggedOnUser
+    Win32_SystemDriverPNPEntity
+    Win32_CIMLogicalDeviceCIMDataFile
+    Win32_SCSIControllerDevice
+    Win32_POTSModemToSerialPort
+    Win32_USBControllerDevice
+    Win32_PrinterController
+    Win32_IDEControllerDevice
+    Win32_1394ControllerDevice
+    Win32_DriverForDevice
+    Win32_LogicalProgramGroupItemDataFile
+    Win32_PNPAllocatedResource
+    Win32_MemoryDeviceLocation
+    Win32_MemoryArrayLocation
+    Win32_AllocatedResource
+    Win32_DiskDriveToDiskPartition
+    Win32_LogicalProgramGroupDirectory
+    Win32_ComputerSystemProduct
+    Win32_ProtocolBinding
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_OperatingSystem
+    Win32_Process
+    Win32_ComputerSystem
+    Win32_BIOS
+    Win32_Battery
+    Win32_PortableBattery
+    Win32_PnPEntity
+    Win32_TemperatureProbe
+    Win32_VoltageProbe
+    Win32_CurrentProbe
+    Win32_Bus
+    Win32_Keyboard
+    Win32_DesktopMonitor
+    Win32_PointingDevice
+    Win32_NetworkAdapter
+    Win32_SoundDevice
+    Win32_MotherboardDevice
+    Win32_DiskDrive
+    Win32_FloppyDrive
+    Win32_TapeDrive
+    Win32_CDROMDrive
+    Win32_POTSModem
+    Win32_HeatPipe
+    Win32_Refrigeration
+    Win32_Fan
+    Win32_Printer
+    Win32_SCSIController
+    Win32_InfraredDevice
+    Win32_PCMCIAController
+    Win32_FloppyController
+    Win32_VideoController
+    Win32_USBController
+    Win32_SerialPort
+    Win32_ParallelPort
+    Win32_IDEController
+    Win32_1394Controller
+    Win32_CacheMemory
+    Win32_MemoryArray
+    Win32_MemoryDevice
+    Win32_LogicalDisk
+    Win32_MappedLogicalDisk
+    Win32_DiskPartition
+    Win32_Processor
+    Win32_Thread
+    Win32_DCOMApplication
+    Win32_ScheduledJob
+    Win32_PrintJob
+    Win32_OptionalFeature
+    Win32_ComponentCategory
+    Win32_LogicalProgramGroupItem
+    Win32_LogicalProgramGroup
+    Win32_NetworkConnection
+    Win32_ClassicCOMClass
+    Win32_UserAccount
+    Win32_Group
+    Win32_SystemAccount
+    Win32_BaseService
+    Win32_SystemDriver
+    Win32_Service
+    Win32_PrinterDriver
+    Win32_TCPIPPrinterPort
+    Win32_PortResource
+    Win32_DeviceMemoryAddress
+    Win32_IRQResource
+    Win32_Environment
+    Win32_DMAChannel
+    Win32_Share
+    Win32_ClusterShare
+    Win32_NetworkProtocol
+    Win32_QuickFixEngineering
+    Win32_LoadOrderGroup
+    Win32_LogonSession
+    Win32_NetworkClient
+    Win32_PageFileUsage
+    CIM_LogicalFile
+    Win32_Directory
+    CIM_DataFile
+    Win32_ShortcutFile
+    Win32_CodecFile
+    Win32_PageFile
+    Win32_Registry
+    Win32_PhysicalMemory
+    Win32_OnBoardDevice
+    Win32_SystemEnclosure
+    Win32_BaseBoard
+    Win32_PhysicalMemoryArray
+    Win32_SystemSlot
+    Win32_PortConnector
+    Win32_TimeZone
+    Win32_PageFileSetting
+    Win32_Desktop
+    Win32_AutochkSetting
+    Win32_SerialPortConfiguration
+    Win32_StartupCommand
+    Win32_BootConfiguration
+    Win32_NetworkLoginProfile
+    CIM_VideoControllerResolution
+    Win32_DisplayConfiguration
+    Win32_NetworkAdapterConfiguration
+    Win32_DisplayControllerConfiguration
+    Win32_OSRecoveryConfiguration
+    Win32_ClassicCOMClassSetting
+    Win32_DCOMApplicationSetting
+    Win32_PrinterConfiguration
+    Win32_UserDesktop
+    Win32_PrinterSetting
+    Win32_NetworkAdapterSetting
+    Win32_SerialPortSetting
+    Win32_SystemProgramGroups
+    Win32_SystemBootConfiguration
+    Win32_SystemTimeZone
+    Win32_SystemDesktop
+    Win32_ClassicCOMClassSettings
+    Win32_COMApplicationSettings
+    Win32_VideoSettings
+    Win32_PageFileElementSetting
+    Win32_ImplementedCategory
+    Win32_DCOMApplicationAccessAllowedSetting
+    Win32_PnPDevice
+    Win32_ShareToDirectory
+    Win32_ClientApplicationSetting
+    Win32_SystemServices
+    Win32_SystemNetworkConnections
+    Win32_SystemResources
+    Win32_SystemBIOS
+    Win32_SystemLoadOrderGroups
+    Win32_SystemUsers
+    Win32_SystemOperatingSystem
+    Win32_SystemDevices
+    Win32_ComputerSystemProcessor
+    Win32_SystemPartitions
+    Win32_SystemSystemDriver
+    Win32_SystemProcesses
+    Win32_ClassicCOMApplicationClasses
+    CIM_DirectoryContainsFile
+    Win32_LoadOrderGroupServiceMembers
+    Win32_LogicalDiskRootDirectory
+    Win32_MemoryDeviceArray
+    Win32_GroupUser
+    Win32_ProgramGroupContents
+    Win32_SubDirectory
+    Win32_PhysicalMemoryLocation
+    Win32_ComClassAutoEmulator
+    Win32_ComClassEmulator
+    Win32_DCOMApplicationLaunchAllowedSetting
+    Win32_DeviceBus
+    Win32_PrinterShare
+    Win32_LoadOrderGroupServiceDependencies
+    CIM_ProcessExecutable
+    Win32_SessionProcess
+    Win32_AssociatedProcessorMemory
+    Win32_PrinterDriverDll
+    Win32_DependentService
+    Win32_LogicalDiskToPartition
+    Win32_OperatingSystemQFE
+    Win32_LoggedOnUser
+    Win32_SystemDriverPNPEntity
+    Win32_CIMLogicalDeviceCIMDataFile
+    Win32_SCSIControllerDevice
+    Win32_POTSModemToSerialPort
+    Win32_USBControllerDevice
+    Win32_PrinterController
+    Win32_IDEControllerDevice
+    Win32_1394ControllerDevice
+    Win32_DriverForDevice
+    Win32_LogicalProgramGroupItemDataFile
+    Win32_PNPAllocatedResource
+    Win32_MemoryDeviceLocation
+    Win32_MemoryArrayLocation
+    Win32_AllocatedResource
+    Win32_DiskDriveToDiskPartition
+    Win32_LogicalProgramGroupDirectory
+    Win32_ComputerSystemProduct
+    Win32_ProtocolBinding
+Provider: NamedJobObjectActgInfoProv
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_NamedJobObjectActgInfo
+Provider: WBEMCORE
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_WMISetting
+    Win32_WMIElementSetting
+Provider: RouteEventProvider
+ Registration: __EventProviderRegistration
+  queries these classes:
+    Win32_IP4RouteTableEvent
+Provider: MSVDS__PROVIDER
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_Volume
+    Win32_MountPoint
+    Win32_VolumeQuota
+    Win32_VolumeUserQuota
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_Volume
+    Win32_MountPoint
+    Win32_VolumeQuota
+    Win32_VolumeUserQuota
+Provider: NamedJobObjectSecLimitSettingProv
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_NamedJobObjectSecLimitSetting
+Provider: UserProfileProvider
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_UserProfile
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_UserProfile
+Provider: MSIProv
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_SoftwareElement
+    Win32_SoftwareFeature
+    Win32_ApplicationService
+    Win32_CommandLineAccess
+    Win32_ServiceControl
+    Win32_Property
+    Win32_Patch
+    Win32_PatchPackage
+    Win32_Binary
+    Win32_ODBCAttribute
+    Win32_ODBCSourceAttribute
+    Win32_ShortcutAction
+    Win32_ExtensionInfoAction
+    Win32_CreateFolderAction
+    Win32_RegistryAction
+    Win32_ClassInfoAction
+    Win32_SelfRegModuleAction
+    Win32_TypeLibraryAction
+    Win32_BindImageAction
+    Win32_RemoveIniAction
+    Win32_MIMEInfoAction
+    Win32_FontInfoAction
+    Win32_PublishComponentAction
+    Win32_MoveFileAction
+    Win32_DuplicateFileAction
+    Win32_RemoveFileAction
+    Win32_ProductResource
+    Win32_SoftwareElementResource
+    Win32_ActionCheck
+    Win32_ProductSoftwareFeatures
+    Win32_InstalledSoftwareElement
+    Win32_SoftwareFeatureCheck
+    Win32_DirectorySpecification
+    Win32_SoftwareElementCondition
+    Win32_ODBCDriverSpecification
+    Win32_ServiceSpecification
+    Win32_FileSpecification
+    Win32_IniFileSpecification
+    Win32_LaunchCondition
+    Win32_ODBCDataSourceSpecification
+    Win32_ODBCTranslatorSpecification
+    Win32_ProgIDSpecification
+    Win32_EnvironmentSpecification
+    Win32_ReserveCost
+    Win32_Condition
+    Win32_ServiceSpecificationService
+    Win32_PatchFile
+    Win32_ODBCDriverAttribute
+    Win32_ODBCDataSourceAttribute
+    Win32_ShortcutSAP
+    Win32_SoftwareElementCheck
+    Win32_ODBCDriverSoftwareElement
+    Win32_SoftwareFeatureSoftwareElements
+    Win32_SoftwareFeatureAction
+    Win32_SoftwareElementAction
+    Win32_ApplicationCommandLine
+    Win32_SoftwareFeatureParent
+    Win32_Product
+    Win32_ProductCheck
+    Win32_CheckCheck
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_SoftwareElement
+    Win32_SoftwareFeature
+    Win32_ApplicationService
+    Win32_CommandLineAccess
+    Win32_ServiceControl
+    Win32_Property
+    Win32_Patch
+    Win32_PatchPackage
+    Win32_Binary
+    Win32_ODBCAttribute
+    Win32_ODBCSourceAttribute
+    Win32_ShortcutAction
+    Win32_ExtensionInfoAction
+    Win32_CreateFolderAction
+    Win32_RegistryAction
+    Win32_ClassInfoAction
+    Win32_SelfRegModuleAction
+    Win32_TypeLibraryAction
+    Win32_BindImageAction
+    Win32_RemoveIniAction
+    Win32_MIMEInfoAction
+    Win32_FontInfoAction
+    Win32_PublishComponentAction
+    Win32_MoveFileAction
+    Win32_DuplicateFileAction
+    Win32_RemoveFileAction
+    Win32_ProductResource
+    Win32_SoftwareElementResource
+    Win32_ActionCheck
+    Win32_ProductSoftwareFeatures
+    Win32_InstalledSoftwareElement
+    Win32_SoftwareFeatureCheck
+    Win32_DirectorySpecification
+    Win32_SoftwareElementCondition
+    Win32_ODBCDriverSpecification
+    Win32_ServiceSpecification
+    Win32_FileSpecification
+    Win32_IniFileSpecification
+    Win32_LaunchCondition
+    Win32_ODBCDataSourceSpecification
+    Win32_ODBCTranslatorSpecification
+    Win32_ProgIDSpecification
+    Win32_EnvironmentSpecification
+    Win32_ReserveCost
+    Win32_Condition
+    Win32_ServiceSpecificationService
+    Win32_PatchFile
+    Win32_ODBCDriverAttribute
+    Win32_ODBCDataSourceAttribute
+    Win32_ShortcutSAP
+    Win32_SoftwareElementCheck
+    Win32_ODBCDriverSoftwareElement
+    Win32_SoftwareFeatureSoftwareElements
+    Win32_SoftwareFeatureAction
+    Win32_SoftwareElementAction
+    Win32_ApplicationCommandLine
+    Win32_SoftwareFeatureParent
+    Win32_Product
+    Win32_ProductCheck
+    Win32_CheckCheck
+Provider: Win32_WIN32_TERMINALSERVICE_Prov
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_TerminalService
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_TerminalService
+Provider: SessionProvider
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_ServerSession
+    Win32_ServerConnection
+    Win32_SessionConnection
+    Win32_ConnectionShare
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_ServerSession
+    Win32_ServerConnection
+    Win32_SessionConnection
+    Win32_ConnectionShare
+Provider: OSppProvider
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    OfficeSoftwareProtectionService
+    OfficeSoftwareProtectionProduct
+    OfficeSoftwareProtectionTokenActivationLicense
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    OfficeSoftwareProtectionService
+    OfficeSoftwareProtectionProduct
+    OfficeSoftwareProtectionTokenActivationLicense
+Provider: NamedJobObjectProv
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_NamedJobObject
+Provider: WMI Kernel Trace Event Provider
+ Registration: __EventProviderRegistration
+  queries these classes:
+    Win32_ProcessStartTrace
+    Win32_ProcessStopTrace
+    Win32_ThreadStartTrace
+    Win32_ThreadStopTrace
+    Win32_ModuleLoadTrace
+Provider: SECRCW32
+ Registration: __MethodProviderRegistration
+  supplies these classes:
+    Win32_AccountSID
+    Win32_SecurityDescriptorHelper
+    Win32_LogicalFileSecuritySetting
+    Win32_LogicalShareSecuritySetting
+    Win32_SID
+    Win32_SecuritySettingOfLogicalShare
+    Win32_SecuritySettingOfLogicalFile
+    Win32_LogicalFileOwner
+    Win32_LogicalFileGroup
+    Win32_LogicalFileAuditing
+    Win32_LogicalShareAuditing
+    Win32_LogicalFileAccess
+    Win32_LogicalShareAccess
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_AccountSID
+    Win32_SecurityDescriptorHelper
+    Win32_LogicalFileSecuritySetting
+    Win32_LogicalShareSecuritySetting
+    Win32_SID
+    Win32_SecuritySettingOfLogicalShare
+    Win32_SecuritySettingOfLogicalFile
+    Win32_LogicalFileOwner
+    Win32_LogicalFileGroup
+    Win32_LogicalFileAuditing
+    Win32_LogicalShareAuditing
+    Win32_LogicalFileAccess
+    Win32_LogicalShareAccess
+Provider: SystemConfigurationChangeEvents
+ Registration: __EventProviderRegistration
+  queries these classes:
+    Win32_SystemConfigurationChangeEvent
+Provider: DskQuotaProvider
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_QuotaSetting
+    Win32_VolumeQuotaSetting
+    Win32_DiskQuota
+Provider: Win32ClockProvider
+ Registration: __EventProviderRegistration
+  queries these classes:
+    "Win32_LocalTime"
+    "Win32_UTCTime"
+ Registration: __InstanceProviderRegistration
+  supplies these classes:
+    Win32_LocalTime
+    Win32_UTCTime
