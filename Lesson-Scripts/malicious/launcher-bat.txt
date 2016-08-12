@@ -1,0 +1,3 @@
+@echo off
+start /b powershell.exe -nop -noni -w h -enc c3RhcnQtcHJvY2VzcyBub3RlcGFkLmV4ZQ==
+start /b "" cmd /c del "~f0"&exit /b
